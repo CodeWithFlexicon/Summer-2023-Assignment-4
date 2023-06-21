@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #dbaeff;
+  background: linear-gradient(
+    157deg,
+    rgb(176, 222, 253) 0%,
+    rgba(255, 255, 255, 1) 46%,
+    rgb(169, 255, 187) 100%
+  );
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(
+    157deg,
+    rgb(195, 238, 255) 0%,
+    rgba(255, 255, 255, 1) 46%,
+    rgb(160, 255, 168) 100%
+  );
+}
+
+.poster {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(197, 232, 255);
+}
+
+#poster-image {
+  width: 30%;
+  height: 30%;
+  margin-bottom: 10px;
+  box-shadow: 10px 5px 5px black;
+}
+
+#poster-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#poster-quote {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#newposter-form {
+  padding: 5px;
+  border-radius: 10px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(248, 253, 176);
+}
